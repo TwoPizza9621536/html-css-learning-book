@@ -1,0 +1,36 @@
+*
+{
+    font-family: Arial, Verdana, sans-serif;
+}
+h1
+{
+    font-family: 'Courier New', monospace;
+}
+em
+{
+    color: green;
+}
+em
+{
+    color: red;
+}
+strong
+{
+    color: pink;
+}
+p strong
+{
+    color: blue !important;
+}
+p strong
+{
+    color: violet;
+}
+p#intro
+{
+    font-size: 100%;
+}
+p
+{
+    font-size: 75%;
+}

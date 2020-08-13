@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>HTML Forms Practice</title>
+    </head>
+    <body>
+        <form action="https://www.example.com/login.php" method="get">
+            <p>The form controls will appear down below.</p>
+            <p>Username:</p>
+            <input type="text" name="username" size="15" maxlength="30" />
+            <p>Password:</p>
+            <input type="password" name="password" size="15" maxlength="30" />
+        </form>
+        <form action="https://www.example.com/comments.php">
+            <p>What do you think of this gag yet?</p>
+            <textarea name="comments" cols="20" rows="4">Enter Here</textarea>
+        </form>
+        <form action="https://www.example.com/gamevs.php">
+            <p>Please select your favorite game:</p>
+            <br />
+            <input type="radio" name="game" value="Minecraft" checked="checked" /> Minecraft
+            <input type="radio" name="game" value="Fortnight" checked="checked" /> Fortnight
+        </form>
+        <form action="https://www.example.com/memzvs.php">
+            <p>
+                Please select your favorite memz:
+                <br />
+                <input type="checkbox" name="memz" value="RickRoll" /> RickRoll
+                <input type="checkbox" name="memz" value="Megalovania" /> Megalovania
+                <input type="checkbox" name="memz" value="IPlayPokémonGO" /> I Play Pokémon GO
+            </p>
+        </form>
+        <form action="https://www.example.com/YTvs.php">
+            <p>
+                Who will win?
+                <br />
+                <select name="YT" size="3" multiple="multiple">
+                    <option value="PewDiePie">PewDiePie</option>
+                    <option value="TSeries">T-Series</option>
+                    <option value="JamesCharles">James Charles</option>
+                </select>
+            </p>
+        </form>
+        <form action="https://www.example.com/upload.php" method="post">
+            <p>Upload your document that show why this youtuber will win.</p>
+            <input type="file" name="user-yt" /><br />
+            <input type="submit" value="Upload" />
+        </form>
+        <form action="https://www.example.com/support.php">
+            <p>Support to our channel</p>
+        <input type="text" name="Channel" />
+        <input type="submit" name="Support" />
+        </form>
+    </body>
+</html>
+<hr />
+<html lang="en-US">
+    <head>
+        <title>HTML Labelling and Grouping Forms Practice</title>
+    </head>
+    <body>
+        <label>Age: <input type="text" name="age" /></label>
+        <br />
+        Gender:
+        <input id="female" type="radio" name="gender" value="f" />
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m" />
+        <label for="male">Male</label>
+    </body>
+</html>
+<hr />
+<html lang="en-US">
+    <head>
+        <title>HTML5 Form Validation Practice</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>Email:</label><br />
+            <input type="text" name="email" /><br />
+            <label>Mobile:</label><br />
+            <input type="text" name="mobile" /><br />
+            <label>Telephone:</label><br />
+            <input type="text" name="telephone" /><br />
+            <label>Confirm Email:</label><br />
+            <input type="email" name="confirmation" required="required" /> <br />
+            <label>Birthday:</label><br />
+            <input type="date" name="birthday" /><br />
+            <label>Web Address:</label><br />
+            <input type="url" name="webaddress" /><br />
+            <input type="submit" value="Submit" />
+        </fieldset>
+        <form action="https://www.example.org/search.php">
+            <p>Search:</p>
+            <input type="search" name="search" placeholder="Enter Keyword" />
+            <input type="submit" value="Search" />
+        </form>
+    </body>
+</html>
