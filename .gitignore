@@ -2,5 +2,5 @@
 # SPDX-FileCopyrightText: 2020 Samuel Wu
 # SPDX-License-Identifier: CC0-1.0
 # End SDPX identifier expressions
-# Auto detect text files and perform LF normalization
-* text=auto
+.vscode/
+node_modules/
