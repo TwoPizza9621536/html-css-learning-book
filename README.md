@@ -10,5 +10,6 @@ It is under CC0 using SPDX identifier expression.
 
 ```text
 SPDX-FileCopyrightText: 2020 Samuel Wu
+
 SPDX-License-Identifier: CC0-1.0
 ```
